@@ -273,8 +273,6 @@ Made by the build: `build/`, `bin/`.
 | **[sf.teamvanilla.dev](https://sf.teamvanilla.dev)** | The website: downloads, screenshots, the guide for players and server owners, the live server list |
 | **[Download](https://sf.teamvanilla.dev/download/)** | The game for Windows, Linux and Android, and the server for Windows and Linux |
 | **[The guide](https://sf.teamvanilla.dev/docs/)** | Getting started, controls, options, game types, your account |
-| **[Soldier Front Legacy Server](https://github.com/tsyvm/soldierfrontlegacy-server)** | The server's own repository |
-| **[Soldier Front Legacy Discord](https://discord.gg/7cSe8s6W6T)** | Players meet here; Team Vanilla's staff answer for forgotten passwords |
 | **[TeamVanilla Discord](https://discord.gg/TeJHcV9EJW)** | TeamVanilla: send `game.log` with a few words on what happened |
 
 <div align="center">
