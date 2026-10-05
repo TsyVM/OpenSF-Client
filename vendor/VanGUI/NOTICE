@@ -1,0 +1,34 @@
+VanGUI SDK — Third-Party and Provenance Notices
+================================================
+
+VanGUI is distributed under the MIT License (see LICENSE). It is composed of the
+following parts:
+
+1. Core library and backends
+   ------------------------------------------------------------------------
+   Derived from Dear ImGui, Copyright (c) 2014-2026 Omar Cornut.
+   Licensed under the MIT License.
+   Upstream: https://github.com/ocornut/imgui
+
+   VanGUI renames the Dear ImGui public symbols (ImGui -> VanGui, Im -> Van) and
+   tracks upstream `master`. All original Dear ImGui copyright and license terms
+   are retained; see LICENSE. VanGUI is an independent fork and is not endorsed
+   by or affiliated with the Dear ImGui project or Omar Cornut.
+
+2. Bundled stb single-file libraries
+   ------------------------------------------------------------------------
+   vanstb_truetype.h, vanstb_textedit.h, vanstb_rectpack.h are renamed copies of
+   stb_truetype.h / stb_textedit.h / stb_rect_pack.h by Sean Barrett.
+   Public domain (or MIT, at your option). https://github.com/nothings/stb
+
+3. Enhancement suite and fluent facade
+   ------------------------------------------------------------------------
+   The contents of include/vangui/misc/ (animation, loading, notifications,
+   theme engine, .vss stylesheet front-end, dialogs, layout, signals, model/view
+   adapters, actions registry, command palette, node graph, extended widgets,
+   toolbar, drop zone, wizard, thread pool, reflection, undo, settings, and the
+   van.h / van_kit.h facade) are original work.
+   Copyright (c) 2026 TeamVanilla. Licensed under the MIT License.
+
+Bundled fonts (ProggyClean, ProggyForever) and the embedded default fonts carry
+their own permissive (MIT) licenses as documented upstream in Dear ImGui.

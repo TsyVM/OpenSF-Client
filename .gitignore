@@ -1,0 +1,27 @@
+# Build output
+/build/
+/build-*/
+/bin/
+*.pdb
+*.obj
+*.ilk
+*.log
+
+# A player's or an owner's own files: never commit them
+settings.cfg
+session.dat
+accounts.cfg
+local_*.cfg
+
+# Signing keys (Client/Android/build_apk.py makes its own on the first build: keep it OFF GitHub)
+keystore/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Soldier Front's own game data is not ours to publish (the top folder's only: vendor/SFSDK has
+# source folders named data)
+/data/
